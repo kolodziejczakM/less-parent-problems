@@ -1,0 +1,17 @@
+{
+  "name": "less-parent-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "less-parent-problems": "bin/less-parent-problems.js"
+  },
+  "scripts": {
+    "test": "less-parent-problems.js"
+  },
+  "author": "Kolodziejczak Marcin <kolodziejczak.mn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
