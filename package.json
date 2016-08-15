@@ -7,11 +7,16 @@
     "less-parent-problems": "bin/less-parent-problems.js"
   },
   "scripts": {
-    "test": "less-parent-problems.js"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Kolodziejczak Marcin <kolodziejczak.mn@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
   }
 }

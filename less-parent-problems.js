@@ -149,3 +149,6 @@ findLessInDirectory('less',/\.less$/,(filename)=>{
     lessPaths.push(fileData);
 });
 lessProcessing();
+
+
+module.exports.isUserProvidedNumbers = isUserProvidedNumbers;
