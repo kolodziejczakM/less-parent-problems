@@ -13,7 +13,7 @@ NOTE: Problem occures only when you add just layout.css to your webpage. If you 
 
 ## Usage
 Go to directory that contains less folder (parent directory), open terminal and type:
-> less-watch-compiler less <css-output-directory>
+> less-watch-compiler less css-output-directory
 
 Then open new terminal tab and type:
 > less-parent-problems
